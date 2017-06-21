@@ -13,8 +13,13 @@ Plugins: META (0.4), DevFiles (0.4)
 Executable "main"
   Path: src
   MainIs: main.ml
-  BuildDepends: Problem1
+  BuildDepends:
+   Pr1, Pr2
 
-Library "Problem1"
+Library "Pr1"
   Path: src/problem1
   Modules: Pr1
+
+Library "Pr2"
+  Path: src/problem2
+  Modules: Pr2
