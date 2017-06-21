@@ -15,3 +15,10 @@ Pr4.length [1; 2; 3; 4];;       (* 4 *)
 Pr5.rev [1; 2; 3; 4];;          (* [4; 3; 2; 1] *)
 (* Running pr6 *)
 Pr6.is_palindrome [1; 2; 2; 1];; (* true *)
+(* Running pr7 *)
+type 'a node =
+    | One of 'a 
+    | Many of 'a node list;;
+Pr7.flatten [ One "a" ;
+              Many [ One "b" ; Many [ One "c" ; One "d" ] ; One "e" ];
+            ];;
