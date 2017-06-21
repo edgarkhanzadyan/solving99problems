@@ -14,7 +14,7 @@ Executable "main"
   Path: src
   MainIs: main.ml
   BuildDepends:
-   Pr1, Pr2, Pr3, Pr4
+   Pr1, Pr2, Pr3, Pr4, Pr5
 
 Library "Pr1"
   Path: src/problem1
@@ -31,3 +31,7 @@ Library "Pr3"
 Library "Pr4"
   Path: src/problem4
   Modules: Pr4
+
+Library "Pr5"
+  Path: src/problem5
+  Modules: Pr5
