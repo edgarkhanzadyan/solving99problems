@@ -1,6 +1,6 @@
 # structure of my awesome project
 S src
-S src/problem1
+S src/list
 
 B _build/src
-B _build/src/problem1
+B _build/src/list
