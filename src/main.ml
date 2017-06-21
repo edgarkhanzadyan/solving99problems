@@ -23,3 +23,5 @@ type 'a node =
 List_flatten.flatten [ One "a" ;
               Many [ One "b" ; Many [ One "c" ; One "d" ] ; One "e" ];
             ];;
+(* Running list_compress *)
+List_compress.compress ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e"];;
