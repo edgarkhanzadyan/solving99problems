@@ -1,0 +1,20 @@
+Name: Solving99problems
+Version: 0.1
+Synopsis: it's a repo about Edgar Khanzadian solving 99 problems
+Authors: Edgar Khanzadian <edgar.khanzadian@gmail.com>
+License: LGPL with OCaml linking exception
+
+Description: it's a repo about Edgar Khanzadian solving 99 problems
+
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+
+Executable "main"
+  Path: src
+  MainIs: main.ml
+  BuildDepends: Problem1
+
+Library "Problem1"
+  Path: src/problem1
+  Modules: Pr1
