@@ -14,5 +14,4 @@ Pr4.length [1; 2; 3; 4];;       (* 4 *)
 (* Running pr5 *)
 Pr5.rev [1; 2; 3; 4];;          (* [4; 3; 2; 1] *)
 (* Running pr6 *)
-let sol6 = string_of_bool (Pr6.is_palindrome []);;
-print_endline sol6;;
+Pr6.is_palindrome [1; 2; 2; 1];; (* true *)
