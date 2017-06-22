@@ -27,3 +27,5 @@ List_flatten.flatten [ One "a" ;
 List_compress.compress ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e"];;
 (* Running list_pack *)
 List_pack.pack ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e"];;
+(* Running list_rle_encode *)
+List_rle_encode.encode ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e";"yay"];;
