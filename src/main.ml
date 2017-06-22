@@ -38,3 +38,5 @@ List_replicate.replicate ["a";"b";"c"] 3;;
 List_drop_n.drop ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 3;;
 (* Running list_split *)
 List_split.split ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 3;;
+(* Running list_slice *)
+List_slice.slice ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 2 6;;
