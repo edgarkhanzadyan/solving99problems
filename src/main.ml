@@ -28,3 +28,5 @@ List_pack.pack ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e"];;
 List_rle_encode.encode ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e";"yay"];;
 (* Running list_rle_modif_encode *)
 List_rle_modif_encode.encode ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e";"yay"];;
+(* Running list_rle_decode *)
+List_rle_decode.decode [Many (4,"a"); One "b"; Many (2,"c"); Many (2,"a"); One "d"; Many (4,"e")];;
