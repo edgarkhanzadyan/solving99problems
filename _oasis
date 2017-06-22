@@ -18,4 +18,4 @@ Executable "main"
 
 Library "My_list"
   Path: src/list
-  Modules: List_last, List_last_two, List_k_element, List_length, List_reverse, List_palindrome, List_flatten, List_compress, List_pack, List_rle_encode, List_rle_modif_encode, List_rle_decode, List_duplicate, List_replicate
+  Modules: List_last, List_last_two, List_k_element, List_length, List_reverse, List_palindrome, List_flatten, List_compress, List_pack, List_rle_encode, List_rle_modif_encode, List_rle_decode, List_duplicate, List_replicate, List_drop_n

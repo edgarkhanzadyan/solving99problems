@@ -34,3 +34,5 @@ List_rle_decode.decode [Many (4,"a"); One "b"; Many (2,"c"); Many (2,"a"); One "
 List_duplicate.duplicate ["a";"b";"c";"c";"d"];;
 (* Running list_replicate *)
 List_replicate.replicate ["a";"b";"c"] 3;;
+(* Running list_drop_n *)
+List_drop_n.drop ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 3;;
