@@ -1,8 +1,7 @@
 let split list times =
-  let dropdown (arr1, arr2) item t =
-    if t > 0 then (arr1 @ [item], arr2)
-    else (arr1, arr2 @ [item]) in
-  let rec aux acc t = function
-    | [] -> acc
-    | hd :: tl -> aux (dropdown acc hd t) (t-1) tl in
-  aux ([],[]) times list;;
+  let rec aux acc n = function
+    | [] -> acc, []
+    | hd :: tl as all ->
+      if n = 0 then acc, all
+      else aux (acc@[hd]) (n-1) tl in
+  aux [] times list;;
