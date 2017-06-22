@@ -17,9 +17,6 @@ List_reverse.rev [1; 2; 3; 4];;          (* [4; 3; 2; 1] *)
 (* Running list_palindrome *)
 List_palindrome.is_palindrome [1; 2; 2; 1];; (* true *)
 (* Running list_flatten *)
-type 'a node =
-    | One of 'a 
-    | Many of 'a node list;;
 List_flatten.flatten [ One "a" ;
               Many [ One "b" ; Many [ One "c" ; One "d" ] ; One "e" ];
             ];;
@@ -29,3 +26,5 @@ List_compress.compress ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e"]
 List_pack.pack ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e"];;
 (* Running list_rle_encode *)
 List_rle_encode.encode ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e";"yay"];;
+(* Running list_rle_modif_encode *)
+List_rle_modif_encode.encode ["a";"a";"a";"a";"b";"c";"c";"a";"a";"d";"e";"e";"e";"e";"yay"];;
