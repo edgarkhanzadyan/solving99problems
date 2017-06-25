@@ -42,3 +42,5 @@ List_split.split ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 3;;
 List_slice.slice ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 2 6;;
 (* Running list_rotate *)
 List_rotate.rotate ["a"; "b"; "c"; "d"; "e"; "f"; "g"; "h"] (-2);;
+(* Running list_remove_at *)
+List_remove_at.remove_at 3 ["a";"b";"c";"d"];;
