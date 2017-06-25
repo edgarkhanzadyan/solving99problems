@@ -1,18 +1,12 @@
-let rec rotate list num =
-  let rec pos_rot arr n =
-    match arr with
-    | [] -> list
-    | hd :: tl ->
-      if n = 0 then arr
-      else pos_rot (tl @[hd]) (n-1) in
-  let rec neg_rot arr n =
-    match arr with
-    | [] -> list
-    | hd :: tl ->
-      if n = 0 then arr
-      else neg_rot (tl @ [hd]) (n+1) in
-  if num > 0 then
-    pos_rot list num
-  else if num < 0 then
-     List.rev (neg_rot (List.rev list) num)
-  else list
+let split list n =
+  let rec aux i acc = function
+    | [] -> List.rev acc, []
+    | h :: t as l ->
+      if i = 0 then List.rev acc, l
+      else aux (i - 1) (h :: acc) t in
+  aux n [] list;;
+let rotate list n =
+  let len = List.length list in
+  let n = if len = 0 then 0 else (n mod len + len) mod len in
+  if n = 0 then list
+  else let a, b = split list n in b @ a
