@@ -23,4 +23,4 @@ Library "My_list"
    List_pack, List_rle_encode, List_rle_modif_encode,
    List_rle_decode, List_duplicate, List_replicate,
    List_drop_n, List_split, List_slice, List_rotate,
-   List_remove_at
+   List_remove_at, List_insert_at

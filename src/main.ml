@@ -44,3 +44,5 @@ List_slice.slice ["a";"b";"c";"d";"e";"f";"g";"h";"i";"j"] 2 6;;
 List_rotate.rotate ["a"; "b"; "c"; "d"; "e"; "f"; "g"; "h"] (-2);;
 (* Running list_remove_at *)
 List_remove_at.remove_at 3 ["a";"b";"c";"d"];;
+(* Running list_insert_at *)
+List_insert_at.insert_at "EDGAR" 2 ["a";"b";"c";"d"];;
