@@ -14,11 +14,7 @@ Executable "main"
   Path: src
   MainIs: main.ml
   BuildDepends:
-   Top, My_list, My_logic, My_binary_tree
-
-Library "Top"
-  Path: src
-  Modules: Mlist, Mlogic, Mbinary_tree
+   My_list, My_logic, My_binary_tree
 
 Library "My_list"
   Path: src/list
@@ -27,7 +23,7 @@ Library "My_list"
    List_pack, List_rle_encode, List_rle_modif_encode,
    List_rle_decode, List_duplicate, List_replicate,
    List_drop_n, List_split, List_slice, List_rotate,
-   List_remove_at, List_insert_at, List_range
+   List_remove_at, List_insert_at, List_range, List_rand_select
 
 Library "My_logic"
   Path: src/logic
