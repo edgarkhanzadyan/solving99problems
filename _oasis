@@ -14,7 +14,8 @@ Executable "main"
   Path: src
   MainIs: main.ml
   BuildDepends:
-   My_list
+   My_list, My_logic
+
 
 Library "My_list"
   Path: src/list
@@ -24,3 +25,7 @@ Library "My_list"
    List_rle_decode, List_duplicate, List_replicate,
    List_drop_n, List_split, List_slice, List_rotate,
    List_remove_at, List_insert_at, List_range
+
+Library "My_logic"
+  Path: src/logic
+  Modules: Table2
