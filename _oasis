@@ -14,8 +14,11 @@ Executable "main"
   Path: src
   MainIs: main.ml
   BuildDepends:
-   My_list, My_logic
+   Top, My_list, My_logic, My_binary_tree
 
+Library "Top"
+  Path: src
+  Modules: Mlist, Mlogic, Mbinary_tree
 
 Library "My_list"
   Path: src/list
@@ -29,3 +32,7 @@ Library "My_list"
 Library "My_logic"
   Path: src/logic
   Modules: Table2
+
+Library "My_binary_tree"
+  Path: src/binary_tree
+  Modules: Cbal_tree
