@@ -13,23 +13,34 @@ Plugins: META (0.4), DevFiles (0.4)
 Executable "main"
   Path: src
   MainIs: main.ml
+  NativeOpt: -g -w +a-4-40..42-44-45-48
+  ByteOpt: -g -w +a-4-40..42-44-45-48
   BuildDepends:
    My_list, My_logic, My_binary_tree
 
 Library "My_list"
   Path: src/list
+  CompiledObject: native
+  NativeOpt: -g -w +a-4-40..42-44-45-48
+  ByteOpt: -g -w +a-4-40..42-44-45-48
   Modules: List_last, List_last_two, List_k_element, List_length,
    List_reverse, List_palindrome, List_flatten, List_compress,
    List_pack, List_rle_encode, List_rle_modif_encode,
    List_rle_decode, List_duplicate, List_replicate,
    List_drop_n, List_split, List_slice, List_rotate,
    List_remove_at, List_insert_at, List_range, List_rand_select,
-   List_lotto_select
+   List_lotto_select, List_permutation, List_extract
 
 Library "My_logic"
   Path: src/logic
+  CompiledObject: native
+  NativeOpt: -g -w +a-4-40..42-44-45-48
+  ByteOpt: -g -w +a-4-40..42-44-45-48
   Modules: Table2
 
 Library "My_binary_tree"
   Path: src/binary_tree
+  CompiledObject: native
+  NativeOpt: -g -w +a-4-40..42-44-45-48
+  ByteOpt: -g -w +a-4-40..42-44-45-48
   Modules: Cbal_tree

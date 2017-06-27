@@ -51,3 +51,7 @@ List_range.range 9 4;;
 List_rand_select.rand_select ["a";"b";"c";"d";"e";"f";"g";"h"] 3;;
 (* Running lotto_select *)
 List_lotto_select.lotto_select 6 49;;
+(* Running permutation *)
+List_permutation.permutation ["a"; "b"; "c"; "d"; "e"; "f"];;
+(* Running extract *)
+List_extract.extract 2 ["a";"b";"c";"d"];;
