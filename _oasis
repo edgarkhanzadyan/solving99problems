@@ -29,7 +29,7 @@ Library "My_list"
    List_rle_decode, List_duplicate, List_replicate,
    List_drop_n, List_split, List_slice, List_rotate,
    List_remove_at, List_insert_at, List_range, List_rand_select,
-   List_lotto_select, List_permutation, List_extract
+   List_lotto_select, List_permutation, List_extract, List_group
 
 Library "My_logic"
   Path: src/logic
