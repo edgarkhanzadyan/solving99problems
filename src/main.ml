@@ -56,3 +56,7 @@ List_permutation.permutation ["a"; "b"; "c"; "d"; "e"; "f"];;
 (* Running extract *)
 List_extract.extract 2 ["a";"b";"c";"d"];;
 (* Running list_group in progress *)
+(* List_sort.length_sort [ ["a";"b";"c"]; ["d";"e"]; ["f";"g";"h"]; ["d";"e"]; *)
+(*                 ["i";"j";"k";"l"]; ["m";"n"]; ["o"] ];; *)
+List_sort.quicksort [5; 2; 100; 4; 0; 45; 2; 12; 43; 23; 65 ; 32; 43];;
+(* 0 2 2 4 5 12 23 32 43 43 45 65 100 *)
