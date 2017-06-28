@@ -37,7 +37,7 @@ Library "My_arithm"
   CompiledObject: native
   NativeOpt: -g -w +a-4-40..42-44-45-48
   ByteOpt: -g -w +a-4-40..42-44-45-48
-  Modules: Arithm_prime
+  Modules: Arithm_prime, Arithm_gcd
 
 Library "My_logic"
   Path: src/logic
