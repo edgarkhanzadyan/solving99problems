@@ -16,7 +16,7 @@ Executable "main"
   NativeOpt: -g -w +a-4-40..42-44-45-48
   ByteOpt: -g -w +a-4-40..42-44-45-48
   BuildDepends:
-   My_list, My_logic, My_binary_tree
+   My_list, My_logic, My_binary_tree, My_arithm
 
 Library "My_list"
   Path: src/list
@@ -32,7 +32,12 @@ Library "My_list"
    List_lotto_select, List_permutation, List_extract, List_group,
    List_sort
 
-
+Library "My_arithm"
+  Path: src/arithm
+  CompiledObject: native
+  NativeOpt: -g -w +a-4-40..42-44-45-48
+  ByteOpt: -g -w +a-4-40..42-44-45-48
+  Modules: Arithm_prime
 
 Library "My_logic"
   Path: src/logic
@@ -47,3 +52,12 @@ Library "My_binary_tree"
   NativeOpt: -g -w +a-4-40..42-44-45-48
   ByteOpt: -g -w +a-4-40..42-44-45-48
   Modules: Cbal_tree
+
+
+
+
+
+
+
+
+
