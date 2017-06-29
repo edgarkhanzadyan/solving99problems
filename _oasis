@@ -16,7 +16,7 @@ Executable "main"
   NativeOpt: -g -w +a-4-40..42-44-45-48
   ByteOpt: -g -w +a-4-40..42-44-45-48
   BuildDepends:
-   My_list, My_logic, My_binary_tree, My_arithm
+   My_list, My_logic, My_binary_tree, My_arithm, unix
 
 Library "My_list"
   Path: src/list

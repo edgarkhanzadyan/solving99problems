@@ -69,3 +69,5 @@ Arithm_phi.phi 10;;
 Arithm_factors.factors 315;;
 Arithm_factors_tup.factors 315;;
 Arithm_phi_impr.phi_improved 10;;
+Arithm_timeit.timeit Arithm_phi.phi 10090;;
+Arithm_timeit.timeit Arithm_phi_impr.phi_improved 10090;;
