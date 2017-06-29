@@ -68,3 +68,4 @@ Arithm_coprime.coprime 20536 7826;;
 Arithm_phi.phi 10;;
 Arithm_factors.factors 315;;
 Arithm_factors_tup.factors 315;;
+Arithm_phi_impr.phi_improved 10;;

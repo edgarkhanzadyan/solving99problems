@@ -38,7 +38,7 @@ Library "My_arithm"
   NativeOpt: -g -w +a-4-40..42-44-45-48
   ByteOpt: -g -w +a-4-40..42-44-45-48
   Modules: Arithm_prime, Arithm_gcd, Arithm_coprime, Arithm_phi,
-   Arithm_factors, Arithm_factors_tup
+   Arithm_factors, Arithm_factors_tup, Arithm_phi_impr
 
 Library "My_logic"
   Path: src/logic
