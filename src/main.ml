@@ -66,3 +66,4 @@ Arithm_prime.is_prime 11;;
 Arithm_gcd.gcd 20536 7826;;
 Arithm_coprime.coprime 20536 7826;;
 Arithm_phi.phi 10;;
+Arithm_factors.factors 315;;
