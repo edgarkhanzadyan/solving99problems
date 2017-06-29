@@ -39,7 +39,7 @@ Library "My_arithm"
   ByteOpt: -g -w +a-4-40..42-44-45-48
   Modules: Arithm_prime, Arithm_gcd, Arithm_coprime, Arithm_phi,
    Arithm_factors, Arithm_factors_tup, Arithm_phi_impr, Arithm_all_primes,
-   Arithm_goldbach
+   Arithm_goldbach, Arithm_goldbach_l
 
 Library "My_logic"
   Path: src/logic
