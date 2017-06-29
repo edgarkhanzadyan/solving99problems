@@ -72,3 +72,4 @@ Arithm_phi_impr.phi_improved 10;;
 Arithm_timeit.timeit Arithm_phi.phi 10090;;
 Arithm_timeit.timeit Arithm_phi_impr.phi_improved 10090;;
 List.length (Arithm_all_primes.all_primes 2 7920);;
+Arithm_goldbach.goldbach 28;;
