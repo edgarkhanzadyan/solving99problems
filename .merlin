@@ -1,6 +1,8 @@
 # structure of my awesome project
 S src
 S src/list
+S src/arithm
 
 B _build/src
 B _build/src/list
+B _build/src/arithm

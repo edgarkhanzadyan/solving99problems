@@ -64,3 +64,4 @@ List_sort.quicksort [5; 2; 100; 4; 0; 45; 2; 12; 43; 23; 65 ; 32; 43];;
 Arithm_prime.is_prime 11;;
 
 Arithm_gcd.gcd 20536 7826;;
+Arithm_coprime.coprime 20536 7826;;
